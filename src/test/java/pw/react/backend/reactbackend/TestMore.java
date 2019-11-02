@@ -60,21 +60,7 @@ public class TestMore {
      .build();
   }
   
- /* @After
-  public void clean() throws Exception {
-      MvcResult result = this.mockMvc.perform(get("/api/v1/users").with(httpBasic("admin", "pass"))).andReturn();
-      String content = result.getResponse().getContentAsString();
-      List<User> users = objectMapper.readValue(content, new TypeReference<List<User>>() {
-      });
-      if(!users.isEmpty())
-      for (User user : users) {
-        this.mockMvc.perform(MockMvcRequestBuilders
-        .delete("/api/v1/users/"+user.getId()).with(httpBasic("admin", "pass"))
-        .contentType(MediaType.APPLICATION_JSON));
-       
-      }
-  }*/
-
+ 
 
   @WithMockUser
   @Test
