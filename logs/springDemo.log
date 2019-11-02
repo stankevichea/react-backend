@@ -1,0 +1,141 @@
+2019-11-03 00:13:11.032  INFO 10228 --- [restartedMain] p.r.backend.reactbackend.Application     : Starting Application on DESKTOP-A4FTSAM with PID 10228 (started by Stankevich Katherine in C:\Users\Stankevich Katherine\Desktop\lab4_lolo\react-backend)
+2019-11-03 00:13:11.038  INFO 10228 --- [restartedMain] p.r.backend.reactbackend.Application     : The following profiles are active: dev
+2019-11-03 00:13:11.143  INFO 10228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-03 00:13:11.144  INFO 10228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-03 00:13:13.622  INFO 10228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-03 00:13:13.745  INFO 10228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces.
+2019-11-03 00:13:14.733  INFO 10228 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1d1637d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-03 00:13:14.791  INFO 10228 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2151b0af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-03 00:13:15.975  INFO 10228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-03 00:13:16.049  INFO 10228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-03 00:13:16.052  INFO 10228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-03 00:13:16.349  INFO 10228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-03 00:13:16.350  INFO 10228 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5205 ms
+2019-11-03 00:13:18.356  INFO 10228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-03 00:13:18.584  INFO 10228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-03 00:13:18.751  INFO 10228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-03 00:13:18.933  INFO 10228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-03 00:13:18.937  INFO 10228 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-03 00:13:19.257  INFO 10228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-03 00:13:19.521  INFO 10228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-03 00:13:19.553  INFO 10228 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-11-03 00:13:19.565  INFO 10228 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6cf53e53
+2019-11-03 00:13:20.627  INFO 10228 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-03 00:13:20.680  INFO 10228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-03 00:13:22.537  INFO 10228 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35f8b3ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@7028e2d0, org.springframework.security.web.header.HeaderWriterFilter@63f1e288, org.springframework.security.web.authentication.logout.LogoutFilter@23f81379, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3289ac90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29ce9e4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d967f15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64462ae, org.springframework.security.web.session.SessionManagementFilter@8a5df19, org.springframework.security.web.access.ExceptionTranslationFilter@3a72e518, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@654e8bc9]
+2019-11-03 00:13:22.926  INFO 10228 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-03 00:13:23.065  WARN 10228 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-03 00:13:24.471  INFO 10228 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-03 00:13:24.727  INFO 10228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-03 00:13:24.733  INFO 10228 --- [restartedMain] p.r.backend.reactbackend.Application     : Started Application in 14.574 seconds (JVM running for 15.574)
+2019-11-03 00:13:43.432  INFO 11992 --- [main] pw.react.backend.reactbackend.TestMore   : Starting TestMore on DESKTOP-A4FTSAM with PID 11992 (started by Stankevich Katherine in c:\Users\Stankevich Katherine\Desktop\lab4_lolo\react-backend)
+2019-11-03 00:13:43.434  INFO 11992 --- [main] pw.react.backend.reactbackend.TestMore   : The following profiles are active: it
+2019-11-03 00:13:46.086  INFO 11992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-03 00:13:46.242  INFO 11992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135ms. Found 1 repository interfaces.
+2019-11-03 00:13:47.546  INFO 11992 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5bdb6c16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-03 00:13:47.637  INFO 11992 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$db5bb948] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-03 00:13:48.234  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-03 00:13:48.771  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-03 00:13:48.985  INFO 11992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-03 00:13:49.134  INFO 11992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-03 00:13:49.138  INFO 11992 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-03 00:13:49.473  INFO 11992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-03 00:13:50.077  INFO 11992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-11-03 00:13:50.121  INFO 11992 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-11-03 00:13:51.696  INFO 11992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-03 00:13:55.814  INFO 11992 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4990b335, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b465fa9, org.springframework.security.web.header.HeaderWriterFilter@778197c0, org.springframework.security.web.authentication.logout.LogoutFilter@5f67181f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@361f26b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@598e5cb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1feb586d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@624d778e, org.springframework.security.web.session.SessionManagementFilter@7538cfe6, org.springframework.security.web.access.ExceptionTranslationFilter@1f3361e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65da4a5d]
+2019-11-03 00:13:56.882  INFO 11992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-03 00:13:57.043  WARN 11992 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-03 00:13:59.930  INFO 11992 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-03 00:14:00.113  INFO 11992 --- [main] pw.react.backend.reactbackend.TestMore   : Started TestMore in 17.537 seconds (JVM running for 19.467)
+2019-11-03 00:14:00.312  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:00.314  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:00.316  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2019-11-03 00:14:00.318  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:00.319  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:00.347  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 28 ms
+2019-11-03 00:14:00.367  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:00.367  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:00.378  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2019-11-03 00:14:01.050  INFO 11992 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-03 00:14:01.935  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:01.936  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:01.939  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2019-11-03 00:14:01.939  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:01.939  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:01.948  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2019-11-03 00:14:01.950  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:01.951  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:01.961  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2019-11-03 00:14:02.175  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.176  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.177  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2019-11-03 00:14:02.177  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.177  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.186  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2019-11-03 00:14:02.187  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.188  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.200  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
+2019-11-03 00:14:02.414  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.414  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.415  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2019-11-03 00:14:02.415  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.415  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.428  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 13 ms
+2019-11-03 00:14:02.429  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.430  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.440  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2019-11-03 00:14:02.657  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.657  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.658  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2019-11-03 00:14:02.658  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.658  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.667  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2019-11-03 00:14:02.667  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.668  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.678  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2019-11-03 00:14:02.890  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.890  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.891  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2019-11-03 00:14:02.891  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.891  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.898  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2019-11-03 00:14:02.898  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:02.898  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:02.905  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2019-11-03 00:14:03.136  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.137  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.137  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2019-11-03 00:14:03.137  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.137  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.146  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2019-11-03 00:14:03.146  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.146  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.154  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2019-11-03 00:14:03.339  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.340  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.340  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2019-11-03 00:14:03.340  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.340  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.348  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2019-11-03 00:14:03.349  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.349  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.358  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2019-11-03 00:14:03.536  INFO 11992 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.536  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.536  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2019-11-03 00:14:03.538  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.538  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.544  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2019-11-03 00:14:03.545  INFO 11992 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-11-03 00:14:03.545  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-11-03 00:14:03.550  INFO 11992 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2019-11-03 00:14:03.576  INFO 11992 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-03 00:14:03.583  INFO 11992 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-03 00:14:03.589  WARN 11992 --- [Thread-4] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-11-03 00:14:03.590  INFO 11992 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-03 00:14:03.597  INFO 11992 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
